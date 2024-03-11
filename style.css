@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    background-image: url("images/bg-img.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.59;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 80px);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0px 20px;
+
+}
+
+.middle-section> :first-child {
+    font-size: 56px;
+    font-weight: 900;
+    width: 560px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.middle-section> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.middle-section> :nth-child(3) {
+    font-weight: 400;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(88, 85, 85);
+}
+
+.btn-language {
+    background-color: #101010ab;
+    color: white;
+    padding: 6px 23px;
+    border: 1px solid #5F5E5E;
+}
+
+.btn-signin {
+    background-color: red;
+    padding: 4px 15px;
+}
+
+.btn-red {
+    background-color: red;
+    padding: 12px 55px;
+    font-size: 24px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.middle-section input {
+    padding: 15px 95px 15px 13px;
+    font-size: 19px;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #101010ab;
+    border: 1px solid #5E5E5E;
+}
+
+.forinput {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section */
+
+.cards-container {
+    color: white;
+    width: 80vw;
+    margin: auto;
+}
+
+.cards-container> :first-child {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards-section {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.card {
+    width: 24%;
+    background: linear-gradient(to bottom, #1A2043, #1B1B36, #1F1221, #200F1B);
+    padding: 21px 10px 100px 10px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.card img {
+    width: 65px;
+    position: absolute;
+    left: 172px;
+    top: 163px;
+}
+
+/* section */
+.question-container {
+    width: 80vw;
+    color: white;
+    margin: auto;
+    font-size: 24px;
+}
+
+.question-container> :first-child {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.question-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #373434;
+    padding: 22px 15px;
+    margin-top: 8px;
+    width: 65vw;
+}
+/* section-footer */
+.last-info-container {
+    width: 80vw;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.last-info-container>p {
+    padding-bottom: 10px;
+}
+
+.info-section {
+    display: flex;
+    gap: 10px;
+}
+
+.info-section input {
+    width: 45vw;
+    padding: 15px 95px 15px 13px;
+    font-size: 19px;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #101010ab;
+    border: 1px solid #5E5E5E;
+}
+
+.footer-container {
+    padding: 25px;
+}
+
+.footer-container p {
+    text-decoration: underline;
+    color: #B3B3B3;
+}
+
+.footer-section {
+    display: flex;
+    gap: 112px;
+    margin-top: 28px;
+    line-height: 2;
+}
+
+.last {
+    padding: 25px;
+}
+
+.last button {
+    margin-bottom: 20px;
+}
