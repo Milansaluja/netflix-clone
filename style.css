@@ -56,14 +56,13 @@ nav button {
     color: white;
     position: relative;
     gap: 20px;
-    padding: 0px 20px;
 
 }
 
 .middle-section> :first-child {
     font-size: 56px;
     font-weight: 900;
-    width: 560px;
+    width: 568px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -136,12 +135,12 @@ nav button {
 .cards-section {
     display: flex;
     font-size: 30px;
-    justify-content: space-between;
     font-weight: 500;
+    width: 100%;
 }
 
 .card {
-    width: 24%;
+    width: 47%;
     background: linear-gradient(to bottom, #1A2043, #1B1B36, #1F1221, #200F1B);
     padding: 21px 10px 100px 10px;
     border-radius: 12px;
@@ -176,6 +175,7 @@ nav button {
     margin-top: 8px;
     width: 65vw;
 }
+
 /* section-footer */
 .last-info-container {
     width: 80vw;
@@ -228,3 +228,210 @@ nav button {
 .last button {
     margin-bottom: 20px;
 }
+
+
+/* media queries */
+.m {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+ @media only screen and (max-width: 1345px) and (min-width:680px) {
+
+    .cards-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .m {
+        display: flex;
+        
+        width: 100%;
+    }
+
+    .card {
+        width: 47%;
+        padding: 41px 10px 140px 10px;
+    }
+
+    .question-section {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 680px) and (min-width:1px) {
+
+    .cards-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .m {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        
+    }
+
+    .card {
+        padding: 25px 10px 170px 10px;
+        width: 100%;
+    }
+
+    .question-section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 790px) and (min-width:1px) {
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .forinput {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-section p {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 635px) and (min-width:1px) {
+
+    .forinput {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 635px) and (min-width:1px) {
+
+
+    .info-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 582px) and (min-width:1px) {
+    .middle-section> :first-child {
+        font-size: 52px;
+        padding-left: 29px;
+    }
+
+    .middle-section> :nth-child(3) {
+        width: 288px;
+    }
+
+}
+
+@media only screen and (max-width: 572px) and (min-width:1px) {
+
+    .middle-section> :first-child {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 560px) and (min-width:1px) {
+    .middle-section> :first-child {
+        font-size: 52px;
+        padding-right: 20px;
+        width: 523px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 508px) and (min-width:1px) {
+    .middle-section> :first-child {
+
+        width: 488px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 482px) and (min-width:1px) {
+    .middle-section> :first-child {
+
+        width: 458px;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .middle-section input {
+        padding: 15px 40px 15px 13px;
+    }
+}
+
+@media only screen and (max-width: 460px) and (min-width:1px) {
+
+    .middle-section> :first-child {
+        width: 415px;
+    }
+}
+
+@media only screen and (max-width: 414px) and (min-width:1px) {
+
+    .middle-section> :first-child {
+        width: 382px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 364px) and (min-width:1px) {
+
+
+    .middle-section> :first-child {
+        width: 286px;
+    }
+
+    .middle-section> :nth-child(3) {
+        padding-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 310px) and (min-width:1px) {
+
+    .middle-section input {
+        padding: 15px 7px 15px 13px;
+    }
+
+    .middle-section> :first-child {
+        width: 286px;
+    }
+
+}
+
+@media only screen and (max-width: 289px) and (min-width:1px) {
+
+    .middle-section> :nth-child(2) {
+        padding-left: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
